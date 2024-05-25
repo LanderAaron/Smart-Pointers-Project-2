@@ -164,7 +164,7 @@ int main() {
     //cout << *sp1 << endl;                       // throws null_ptr_exception
 
     smart_ptr<Point> sp{ new Point };
-    cout << sp->x << " " << sp->y << endl;   // prints 2 -5
+    cout << sp->x << " " << sp->y << endl;   // prints 2  -5
 
     smart_ptr<double> dsp1{ new double {3.14} };
     smart_ptr<double> dsp2, dsp3;
